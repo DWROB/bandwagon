@@ -377,7 +377,6 @@ GEM
       redis-client (>= 0.22.0)
     redis-client (0.26.1)
       connection_pool
-    redis-rails (0.0.0)
     regexp_parser (2.11.3)
     reline (0.6.2)
       io-console (~> 0.5)
@@ -585,7 +584,6 @@ DEPENDENCIES
   rails (~> 8.0.0)
   rails_best_practices
   redis (>= 4.0.1)
-  redis-rails
   rspec-rails
   rubocop-rails-omakase
   sassc-rails

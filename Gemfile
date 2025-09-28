@@ -44,7 +44,7 @@ gem "connection_pool"
 gem "sidekiq"
 
 # Caching & Performance
-gem "redis-rails"
+# gem "redis-rails"
 gem "rack-mini-profiler", require: false
 gem "bullet", group: :development
 
