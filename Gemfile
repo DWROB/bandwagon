@@ -14,7 +14,7 @@ gem "redis", ">= 4.0.1"
 gem "dotenv"
 
 #  Frontend and assets
-gem "shakapacker", "~> 7.0"
+gem "shakapacker", "~> 8.4"
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
