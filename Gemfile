@@ -10,8 +10,8 @@ gem "rails", "~> 8.0.0"
 gem "pg", "~> 1.1"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
-
 gem "redis", ">= 4.0.1"
+gem "dotenv"
 
 #  Frontend and assets
 gem "shakapacker", "~> 7.0"
@@ -103,6 +103,9 @@ group :development do
   gem "binding_of_caller"
   gem "annotate"           # Auto-annotate models
   gem "rails_best_practices"
+  gem 'rubocop', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-performance', require: false
 end
 
 group :test do

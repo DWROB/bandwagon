@@ -561,6 +561,7 @@ DEPENDENCIES
   connection_pool
   debug
   devise
+  dotenv
   factory_bot_rails
   faker
   faraday
@@ -585,6 +586,9 @@ DEPENDENCIES
   rails_best_practices
   redis (>= 4.0.1)
   rspec-rails
+  rubocop
+  rubocop-performance
+  rubocop-rails
   rubocop-rails-omakase
   sassc-rails
   selenium-webdriver
