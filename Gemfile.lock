@@ -571,6 +571,7 @@ DEPENDENCIES
   jbuilder
   kamal
   listen (~> 3.3)
+  oauth2 (~> 2.0)
   omniauth
   omniauth-google-oauth2
   omniauth-oauth2

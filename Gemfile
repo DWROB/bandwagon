@@ -118,3 +118,5 @@ group :test do
   gem "webmock"
 end
 
+
+gem "oauth2", "~> 2.0"
