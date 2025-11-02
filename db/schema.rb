@@ -10,19 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_09_28_121658) do
+ActiveRecord::Schema[8.0].define(version: 2025_11_02_132511) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
   create_table "service_connections", force: :cascade do |t|
     t.bigint "user_id", null: false
-    t.string "service_type"
+    t.string "type"
     t.text "access_token"
     t.text "refresh_token"
     t.datetime "expires_at"
     t.string "service_user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "code_verifier"
+    t.string "code_challenge"
+    t.string "state"
+    t.datetime "pkce_created_at"
+    t.index ["type"], name: "index_service_connections_on_type"
     t.index ["user_id"], name: "index_service_connections_on_user_id"
   end
 

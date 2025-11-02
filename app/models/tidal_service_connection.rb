@@ -1,0 +1,2 @@
+class TidalServiceConnection < ServiceConnection
+end

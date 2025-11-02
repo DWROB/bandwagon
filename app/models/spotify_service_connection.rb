@@ -1,0 +1,2 @@
+class SpotifyServiceConnection < ServiceConnection
+end
